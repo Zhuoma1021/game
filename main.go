@@ -1,8 +1,8 @@
 package main
 
-import "GameForFun/gameserver"
+import "GameTest/server"
 
 func main() {
-	gameserver.Init()
-	gameserver.Start()
+	server.Start()
+	server.Init()
 }
